@@ -1,0 +1,17 @@
+language: python
+python:
+- '3.3'
+install:
+- pip install cairocffi
+- wget https://github.com/I2SE/eagle-bom.py/releases/download/v0.2.0/eagle-bom.py
+script:
+- chmod +x release.sh
+- ./release.sh
+deploy:
+  provider: releases
+  api_key:
+    secure: JFcDPE1OaECg+IiPuFrSVyYi1arnSvG/LnIHPVn7aoebCFOoN+ttG/+igPyaTGJarJUv+NboecXvr9uxpcMERZyL0vbf5VGAuwchutfhuO5EoA+sIQ8JoU8UyFenZGAblUJ3+LjVI0W+FjTHpI/LgXerKwxJPVNecd/APumvqKN4xk3l4ZcJjkI90/cp5cZMD5BEKhXKqaPIq4qBDYz31UtPwdOCegTEU+X83O5SU+g9TLC1I74ZKoNYdUpbTzhfff13DFu2e4Xu5glbwLOup2fA1LtmBUC/0hqrRNr7E1j2wPCo+A00h30+Bjwh2rBPQGTD4mhfO4ggQW9oqoCMsik3Wl9qDfleGGSL0rKHSA0ArX/1YFmFHpA2pJdsJR0F5xqJrlWd82nDKrf8yQkfnMwHm0N0UhOcGc28uaJ2PkwDzOXztIuw9jhGHtybGk4FVH0PEoNJ/tijpPj3Mko5OMiEfRIA7nHRlS+drqpgQf8rluSGS2guXdjXhsG7HA8gAcANmj/QsZD06ZzFmKiv3OIquU7HkNF/gUQ20FwcGj25xWHXrlLZ7cRpY+0LyHrH8JiVcXXKpDJ5X6pd7IhP1/7wnM0qYB+lgE9guLXgTwDuxNQInLFTC7b95ugS0FHeTpPJLWHFI37IhAfDp6pJFny1Ha4G6u1WJkXmqKFS70M=
+  file: voc_sensor.zip
+  on:
+    repo: OneWireHomeAutomation/VOC_sensor
+    tags: true
