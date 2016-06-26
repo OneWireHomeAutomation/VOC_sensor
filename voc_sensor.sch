@@ -6413,7 +6413,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="X1" library="con-phoenix-508" deviceset="MSTBV3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="17k"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
 <part name="IC3" library="linear" deviceset="78*" device="DT" technology="05">
 <attribute name="MANF#" value="MC7805BDTG"/>
 </part>

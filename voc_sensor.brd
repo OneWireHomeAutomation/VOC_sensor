@@ -1579,7 +1579,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1792793" x="-11.4" y="16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="1.496" y="14.945" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="R3" library="rcl" package="R0402" value="17k" x="15" y="10" smashed="yes" rot="MR0">
+<element name="R3" library="rcl" package="R0402" value="100k" x="15" y="10" smashed="yes" rot="MR0">
 <attribute name="NAME" x="19.035" y="9.435" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="13.635" y="9.495" size="1.016" layer="28" rot="MR0"/>
 </element>
