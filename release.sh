@@ -4,4 +4,4 @@
 #for the moment
 #python ./eagle-bom.py -i voc_sensor.brd -o voc_sensor_stickerbom.pdf -t sticker
 python ./eagle-bom.py -i voc_sensor.brd -o voc_sensor_bom.csv -t value
-zip voc_sensor.zip voc_sensor.sch voc_sensor.brd pio8_bom.csv
+zip voc_sensor.zip voc_sensor.sch voc_sensor.brd voc_sensor_bom.csv
