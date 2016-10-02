@@ -75,7 +75,7 @@
 <text x="0" y="33" size="1.016" layer="51">&gt;REVISION</text>
 <text x="0" y="35" size="1.016" layer="51">TOP</text>
 <text x="0.9" y="20.5" size="2" layer="21" font="vector" ratio="20" rot="R270">GND</text>
-<text x="11.5" y="18.1" size="2" layer="21" font="vector" ratio="20">7-17V</text>
+<text x="11.5" y="18.1" size="2" layer="21" font="vector" ratio="20">7-12V</text>
 <text x="5.7" y="21.3" size="2" layer="21" font="vector" ratio="20" rot="R270">1-Wire</text>
 <text x="9" y="11" size="2" layer="21" font="vector" ratio="20">OWHA</text>
 <text x="9" y="8" size="2" layer="21" font="vector" ratio="20">VOC Sensor</text>
