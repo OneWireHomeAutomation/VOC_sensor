@@ -1362,7 +1362,7 @@ Metric Code Size 2012</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="REVISION" value="0.2.0"/>
+<attribute name="REVISION" value="0.2.1"/>
 </attributes>
 <variantdefs>
 </variantdefs>
