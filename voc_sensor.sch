@@ -6197,7 +6197,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="IC2" library="1wire" deviceset="DS2438" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0402" value="5.1"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="5.1"/>
-<part name="D8" library="diodes" deviceset="ZENER" device="" value="SMAJ7.5A-LF"/>
+<part name="D8" library="diodes" deviceset="ZENER" device="" value="SMAJ12A"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
@@ -6214,7 +6214,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VOLTAGE" value="&gt;=25 V"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="D1" library="diodes" deviceset="ZENER" device="" value="SMAJ7.5A-LF"/>
+<part name="D1" library="diodes" deviceset="ZENER" device="" value="SMAJ12A"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0402" value="5.1"/>
 <part name="X1" library="connectors" deviceset="SPRING_CLAMP_3" device="_AST215"/>
 <part name="IC4" library="ic_voltage_regulator" deviceset="LMZ21700" device=""/>
